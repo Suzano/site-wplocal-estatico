@@ -1,0 +1,26 @@
+HTTrack3.49-2 launched on Thu, 25 Feb 2021 09:50:21 at http://wplocal.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://wplocal.com/ -O "/home/suzano/Documentos/GitHub/site-wplocal/WPLocal" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:50:24	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2297): wplocal.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.6.2
+09:50:34	Warning: 	Moved Permanently for s.w.org/robots.txt
+09:50:34	Warning: 	File has moved from s.w.org/robots.txt to https://wordpress.org/
+09:50:34	Warning: 	Moved Permanently for s.w.org/
+09:50:34	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+09:50:41	Error: 	"Not Found" (404) at link wplocal.com/index.php/category/sem-categoria/ (from wplocal.com/)
+09:50:41	Error: 	"Not Found" (404) at link wplocal.com/Trident/ (from wplocal.com/)
+09:50:41	Warning: 	Moved Permanently for wplocal.com/?p=1
+09:50:41	Warning: 	File has moved from wplocal.com/?p=1 to http://wplocal.com/index.php/2021/02/25/ola-mundo/
+09:50:41	Error: 	"Method Not Allowed" (405) at link wplocal.com/xmlrpc.php (from wplocal.com/index.php/2021/02/25/ola-mundo/)
+09:50:43	Warning: 	Note: due to 1.gravatar.com remote robots.txt rules, links beginning with these path will be forbidden: /*.json, /*.xml, /*.php, /*.vcf, /*.qr, /accounts/activate/*, /accounts/force-by-email/*, /account/ (see in the options to disable this)
+09:50:43	Error: 	"Not Found" (404) at link wplocal.com/index.php/2021/02/25/ola-mundo/Trident/ (from wplocal.com/index.php/2021/02/25/ola-mundo/)
+09:50:43	Error: 	"Not Found" (404) at link wplocal.com/index.php/author/w3wplocal/Trident/ (from wplocal.com/index.php/author/w3wplocal/)
+09:50:43	Warning: 	HTML file (1705 bytes) retransferred due to lack of cache: wplocal.com/index.php/2021/02/25/ola-mundo/feed/
+09:50:43	Warning: 	HTML file (1765 bytes) retransferred due to lack of cache: wplocal.com/index.php/author/w3wplocal/feed/
+
+HTTrack Website Copier/3.49-2 mirror complete in 26 seconds : 36 links scanned, 28 files written (384937 bytes overall) [210194 bytes received at 8084 bytes/sec], 271165 bytes transferred using HTTP compression in 19 files, ratio 20%, 3.8 requests per connection
+(5 errors, 10 warnings, 0 messages)
